@@ -1,0 +1,389 @@
+/* ------------------------------------------------------------estilos div "barra de estados"---------------------*/
+
+
+#barra_estado{
+    
+    width: 100%; /* width: 100%;*/
+    min-width: 1110px;
+    height: 60px;
+    background-color: #460259;
+    position: fixed; /*sobre el el body*/
+    top: 0%;
+    left: 0%;
+    z-index: 30;
+    
+    
+}
+.btn_icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1%;
+    top: 4px;
+    border-radius: 10%;
+}
+
+.txt_icon{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 9px;
+    left: 4%;
+}
+
+
+#btn_user{
+    position: absolute;
+    right: 1%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 1px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+    
+}
+
+
+#btn_message{
+    position: absolute;
+    right: 4.1%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 6px;
+    text-decoration: none;/*nuevo*/
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+}
+
+#btn_notification{
+    position: absolute;
+    right: 7.2%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 12px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+}
+
+#btn_logout{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+
+}
+
+
+
+
+
+    /*tengo que vovler a hacer el css para cada boton para el javascript*/
+
+/* ------------------------------------------------------------estilos div "wrapper/searchbox"---------------------*/
+
+
+
+#ctn-bars-search{
+    background: white;
+    width: 60%;
+    border-radius: 5px;
+    position: absolute;
+    top: 16%;
+    left: 450px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+
+#inputSearch{
+    height: 55px;
+    width: 98.9%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+
+#ctn-icon-search{
+    position: absolute;
+    top: 5.5%;
+    right: 2%;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#ctn-bars-search{
+    position: absolute;
+    top: 5%;
+    left: 22%;
+}
+
+#box-search {
+    display: block;
+    width: 97%;   
+    padding: 0px 10px;
+    margin: 5px 0 0 0;
+    overflow: hidden;
+    display: none;
+    
+    
+ }
+
+#box-search li a {
+   display: block;
+   width: 1200px;   
+   padding: 6px 10px;
+   cursor: pointer;
+   color: #270140;
+   text-decoration: none;
+}
+
+#box-search li a:hover{
+    background: #f3f3f3;
+}
+
+#box-search li a i{  
+    margin-right: 10px;
+    color: #270140;
+
+}
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:rgba(0,0,0,0.5);
+    padding: 0%;
+    left: 0%;
+    top: 0%;
+    z-index: 27;
+    display: none;
+
+}
+/* ------------------------------------------------------------estilos div "contenido"---------------------*/
+.contenido{
+    height: 500px;
+    width: 75%;
+    min-width: 825px; /*se agrego este valor de prueba*/
+    margin: auto;
+    position: absolute; /*sobre el el body*/
+    top: 150px;
+    left: 13%;
+    z-index: 20;
+    
+}
+.square_post{  /*los squares estan incluidos en el div principal*/
+    height: 50%;
+    width: 50%;
+    position: absolute; /*sobre "contenido"*/
+    top: -1%;
+    left:-0.5%
+}
+.square_space{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 50.5%;
+    top:-1%
+}
+
+.square_explore{
+    height: 250px;
+    width: 50%;
+    position: absolute;/*sobre "contenido"*/
+    bottom:-1%;
+    left:-0.5%
+}
+.square_connect{
+    height: 50%;
+    width: 50%;
+    position: absolute;/*sobre "contenido"*/
+    left: 50.5%;
+    top:51%
+
+}
+
+.img_post{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_post*/
+    top: 0%;
+    left:0%
+}
+
+
+
+.img_space{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_space*/
+    right: 0%;
+    top:0%
+}
+
+.img_explore{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_explore*/
+    bottom:0%;
+    left:0%;
+}
+
+.img_connect{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_connect*/
+    right: 0%;
+    bottom: 0%;
+
+}
+.btn_post{
+    height: 52px;
+    width: 130px;
+    background-color: #460259;
+    position: absolute;
+    border-radius: 10%;
+    font-size: 100%;
+    top: 40%;
+    right: 38%;
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.btn_space{
+    height: 52px;
+    width: 130px;
+    background-color: #460259;
+    position: absolute;
+    border-radius: 10%;
+    font-size: 100%;
+    top: 40%;
+    right: 38%;
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.btn_explore {
+    height: 52px;
+    width: 130px;
+    background-color: #460259;
+    position: absolute;
+    border-radius: 10%;
+    font-size: 100%;
+    top: 40%;
+    right: 38%;
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.btn_connect{
+    height: 52px;
+    width: 130px;
+    background-color: #460259;
+    position: absolute;
+    border-radius: 10%;
+    top: 40%;
+    right: 38%;
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.btn_post:hover{
+    background-color: #c991d8;
+    color: #ededed;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
+    
+}
+.btn_connect:hover{
+    background-color: #c991d8;
+    color: #ededed;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
+    
+}
+.btn_space:hover{
+    background-color: #c991d8;
+    color: #ededed;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
+    
+}
+.btn_explore:hover{
+    background-color: #c991d8;
+    color: #ededed;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
+    
+}
+/* ------------------------------------------------------------estilos div "footer"---------------------*/
+.footer{
+    
+    position: relative;
+    top: 700px;
+    height: 12%;
+    width: 100%;
+    left: 0%;
+    
+}
+
+.footer-links{
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 35.8%;
+    width: 500px;
+    color: #460259;
+}
+
+/* ------------------------------------------------------------estilos div "titulo"---------------------*/
+#titulo{
+    height: 82px; /*82px*/
+    width: 100%;
+    position: relative;/*aboslute*/
+    top: 61px;
+    left: 0%;
+    color: #460259;
+    z-index: 10;
+
+}
+
+#feed_title{
+    position: absolute;
+    left: 40%;
+    width: 500px;
+    
+}
+
+/*h1 {
+    color: #460259;
+    text-align: center;
+}*/
+
+
+h4{
+    position: relative;
+    top: -27%;
+}
+
+
+
+
+
+

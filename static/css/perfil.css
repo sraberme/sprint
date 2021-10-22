@@ -1,0 +1,196 @@
+.barra_estado{
+    
+    width: 100%;
+    height: 60px;
+    background-color: #460259;
+    position: absolute; /*sobre el el body*/
+    top: 0%;
+    left: 0%;
+    
+}
+.btn_icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 1%;
+    top: 4px;
+    border-radius: 10%;
+}
+
+.icon_text{
+    position: absolute;
+    left: 5%;
+    color: #ededed;
+    top: -2px;
+}
+.btn_post{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 1px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+}
+.btn_user{
+    position: absolute;
+    right: 1%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 1px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+    
+}
+
+.btn_logout{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 1px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+
+}
+.h1logo
+{
+    font-family:"times";
+    color:#460259;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;  
+    top: 0;
+    left: 0;
+}
+.h2opciones
+{
+    font-family:"sans serif";
+    text-align: left;
+    font-size: medium;
+    text-decoration: underline;
+    color: #C991D8 ;
+    background-color: white;  
+}
+table
+{
+    margin-left: 800;
+    border-collapse: collapse;
+    text-align-last: right;
+    table-layout: right;
+    color: white;
+    background-color: #460259;
+    font-size: 20;
+    font-weight: bold;   
+}
+#mapa,table {
+    display: inline-block;
+  }
+th,td{
+    border: 1px solid white;
+}
+.hlargo{
+    width: 25%;
+    height:130px ;  
+}
+#us{
+    font-size: 150px;  
+}
+#lineal
+{
+    border-width:1px;
+    border-style:dotted;
+    border-color:#460259;
+    width:100%;
+}
+.textoPerfil{
+    text-align: center;
+    border-radius: 10;
+    color:#270140;
+    font-weight:bold;
+}
+.hlargo,.textoPerfil{
+    display: inline-block;
+}
+.Edit_Dat{
+   width: 150px;
+   height: 130px;
+   margin: 26rem;
+   padding: 26rem;
+   text-align: center;
+}
+h3
+{
+    text-align:center;
+    color: #460259;
+}
+#us1{
+    font-size: 100px;  
+}
+h5
+{  
+    font-family: 'sans serif';
+    margin: auto;
+    border-right: 100px;
+    text-align:right;
+    font-size: large;
+    font-weight: bold;
+    color: #460259 ;   
+}
+#div3
+{
+    font-family: sans-serif;
+    text-decoration:wavy;
+    width: 15%;
+}
+#ch{
+    font-size: 60px;
+    text-align: initial;
+    color:beige
+}
+#div3,#nom{
+    display: inline-block;
+}
+.contenedor
+{
+    background-color:#460259;
+    width: 800px;
+    height: 650px;
+    border-radius: 50px; 
+    margin: auto;
+}
+#change{
+    font-size: 110px;
+    background-color: #C991D8;
+}
+form
+{
+    width: 650px;
+    height: 350px;
+    padding: 30px;
+    padding-right: 21px;
+    padding-left: 40px;
+    padding-inline-end: 40px;
+    border: 18px;
+    margin:auto;
+    background: #C991D8;
+    color:#460259;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.buttoned
+{
+    text-align: center;
+    font-weight: bold;
+
+}
+.Edit_Cont{
+    width: 150px;
+    height: 130px;
+    margin: 15rem;
+    padding: 15rem;
+    text-align: center;
+ }
