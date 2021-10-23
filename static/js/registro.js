@@ -13,21 +13,19 @@ function validar()
 
     //console.log(nombreUsuario.value + "-"+claveInput.value);
 
-    if(nombreInput.value.length == 0)
+    if(nombreInput.value.length == 0 || apellidoInput.value.length == 0)
     {
         document.getElementById("errorNombre").innerHTML=" \n Por favor ingrese su nombre.";
         nombreInput.focus();
         swErrores=true;
     }
 
-    if(apellidoInput.value.length == 0)
+   /* if(apellidoInput.value.length == 0)
     {
         document.getElementById("errorApellido").innerHTML=" \n Por favor ingrese su apellido.";
         apellidoInput.focus();
         swErrores=true;
-    }
-
-
+    }*/
 
     if(usuarioInput.value.length == 0 || usuarioInput.value.length < 8)
     {
