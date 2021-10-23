@@ -1,5 +1,7 @@
 function validar()
 {
+    var nombreInput = document.formularioRegistro.nombre;
+    var apellidoInput = document.formularioRegistro.apellido;
     var usuarioInput = document.formularioRegistro.usuario;
     var claveInput = document.formularioRegistro.clave;
     var correoInput = document.formularioRegistro.correo;
@@ -9,13 +11,26 @@ function validar()
 
     var swErrores=false;
 
-    console.log(nombreUsuario.value + "-"+claveInput.value);
+    //console.log(nombreUsuario.value + "-"+claveInput.value);
+
+    if(nombreInput.value.length == 0)
+    {
+        document.getElementById("errorNombre").innerHTML=" \n Por favor ingrese su nombre.";
+        nombreInput.focus();
+        swErrores=true;
+    }
+
+    if(apellidoInput.value.length == 0)
+    {
+        document.getElementById("errorApellido").innerHTML=" \n Por favor ingrese su apellido.";
+        apellidoInput.focus();
+        swErrores=true;
+    }
 
 
 
     if(usuarioInput.value.length == 0 || usuarioInput.value.length < 8)
     {
-        //alert("El nombre de usuario debe tener mínimo 8 caracteres.");
         document.getElementById("errorusuario").innerHTML="El nombre de usuario debe tener mínimo 8 caracteres.";
         usuarioInput.focus();
         swErrores=true;
